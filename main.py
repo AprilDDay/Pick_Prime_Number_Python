@@ -23,3 +23,20 @@ else:
     print(num, " is a prime number.")
 
 
+#pick a prime number in python
+# second way
+num2 = int(input("Pick a number: "))
+
+# prime numbers are greater than 1
+if num2 > 1:
+    for j in range(2, num2):
+        if (num2 % 1) == 0:
+            print(num2, " is not a prime number.")
+            (print(j, " times ", num2//j, "is", num2))
+        else: 
+            print(num2, " is a prime number.")
+else: 
+    #if num2 is less than or equal to 1, it is not prime
+    print(num2, " is not a prime number.")
+
+# https://www.programiz.com/python-programming/examples/prime-number
